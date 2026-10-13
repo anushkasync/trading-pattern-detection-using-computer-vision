@@ -1,0 +1,7 @@
+path: /Users/anushka/Desktop/NIFTYCV/data_clean
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['Double-Bottom', 'Double-Top', 'Triple-Bottom', 'Triple-Top']
