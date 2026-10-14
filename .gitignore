@@ -10,13 +10,19 @@ wheels/
 .venv
 
 runs/
-
-yolov8n.pt  
-
-.DS_Store
-
+yolov8n.pt 
+yolov11n.pt 
 doc.md
 
-mlruns/
+# macOS
+.DS_Store
+**/.DS_Store
 
+# YOLO generated cache files
+*.cache
+
+# MLflow
 mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlruns/
