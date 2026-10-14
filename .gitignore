@@ -14,3 +14,9 @@ runs/
 yolov8n.pt  
 
 .DS_Store
+
+doc.md
+
+mlruns/
+
+mlflow.db
